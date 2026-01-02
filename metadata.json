@@ -1,0 +1,5 @@
+{
+  "name": "Robo-Wireframe Interactive",
+  "description": "A sophisticated monochromatic 3D robotic arm visualizer featuring scroll-triggered animations, black wireframe aesthetics, and a mechanical noise particle system built with React Three Fiber and Framer Motion.",
+  "requestFramePermissions": []
+}
