@@ -2,6 +2,12 @@
   "name": "robo-wireframe-interactive",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "react": "18.3.1",
     "react-dom": "18.3.1",
@@ -14,7 +20,9 @@
     "@types/react": "18.3.1",
     "@types/react-dom": "18.3.1",
     "@types/three": "0.170.0",
-    "typescript": "5.7.2"
+    "@vitejs/plugin-react": "4.3.4",
+    "typescript": "5.7.2",
+    "vite": "6.0.3"
   },
   "overrides": {
     "react": "18.3.1",

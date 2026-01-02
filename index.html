@@ -7,11 +7,6 @@
     <meta name="description" content="A sophisticated monochromatic 3D robotic arm visualizer for high-torque industrial applications.">
     <meta name="theme-color" content="#f8f9fa">
     
-    <!-- Open Graph -->
-    <meta property="og:title" content="Robo-Wireframe Interactive">
-    <meta property="og:description" content="Next-generation autonomous articulation and wireframe dynamics.">
-    <meta property="og:type" content="website">
-
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
@@ -22,7 +17,6 @@
             font-family: 'JetBrains+Mono', monospace;
             background-color: #f8f9fa;
         }
-        /* Custom scrollbar for mechanical feel */
         ::-webkit-scrollbar {
             width: 5px;
         }
@@ -45,12 +39,15 @@
     "@react-three/drei": "https://esm.sh/@react-three/drei@9.121.4?external=three,react,react-dom,@react-three/fiber",
     "framer-motion": "https://esm.sh/framer-motion@11.11.17?external=react,react-dom",
     "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-    "react/": "https://esm.sh/react@^19.2.3/"
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "vite": "https://esm.sh/vite@^7.3.0",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2"
   }
 }
 </script>
 </head>
 <body>
     <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
 </body>
 </html>
